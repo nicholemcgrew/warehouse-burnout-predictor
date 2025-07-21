@@ -1,0 +1,87 @@
+{
+  "high": {
+    "prediction": "High Stress",
+    "confidence": 95,
+    "status": "CRITICAL - RED ALERT",
+    "recommendation": "🔴 IMMEDIATE INTERVENTION REQUIRED",
+    "reasoning": [
+      "🔥 Stress boost applied: +6.5 points",
+      "Strong negative emotion detected",
+      "Management issues detected",
+      "Multiple stress keywords found",
+      "Low ratings + detailed complaints",
+      "High emotional intensity",
+      "⚡ Enhanced algorithm override used"
+    ],
+    "keyFactors": {
+      "workLifeBalance": 1,
+      "satisfaction": 2,
+      "culture": 2,
+      "reviewLength": 108
+    },
+    "businessImpact": {
+      "costEstimate": "$15,000-25,000",
+      "roi": "300-500%",
+      "timeline": "Immediate (0-7 days)"
+    },
+    "probabilities": {
+      "high": 95,
+      "medium": 4,
+      "low": 1
+    }
+  },
+  "medium": {
+    "prediction": "Medium Stress",
+    "confidence": 58,
+    "status": "YELLOW WARNING",
+    "recommendation": "Monitor closely & provide support",
+    "reasoning": [
+      "Some stress indicators present",
+      "Mixed emotional tone",
+      "Moderate dissatisfaction in review"
+    ],
+    "keyFactors": {
+      "workLifeBalance": 2,
+      "satisfaction": 2,
+      "culture": 4,
+      "reviewLength": 53
+    },
+    "businessImpact": {
+      "costEstimate": "$8,000-15,000",
+      "roi": "150-300%",
+      "timeline": "1–2 weeks"
+    },
+    "probabilities": {
+      "high": 22,
+      "medium": 58,
+      "low": 20
+    }
+  },
+  "low": {
+    "prediction": "Low Stress",
+    "confidence": 87,
+    "status": "GREEN - ALL CLEAR",
+    "recommendation": "No action needed at this time",
+    "reasoning": [
+      "Positive emotional tone",
+      "Good ratings across categories",
+      "No stress signals detected"
+    ],
+    "keyFactors": {
+      "workLifeBalance": 4,
+      "satisfaction": 5,
+      "culture": 5,
+      "reviewLength": 90
+    },
+    "businessImpact": {
+      "costEstimate": "$0",
+      "roi": "N/A",
+      "timeline": "N/A"
+    },
+    "probabilities": {
+      "high": 5,
+      "medium": 8,
+      "low": 87
+    }
+  }
+}
